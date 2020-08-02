@@ -1,0 +1,31 @@
+{
+  "name": "koajs-demo",
+  "version": "1.0.0",
+  "description": "Demo API using KoaJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abu Ashraf Masnun <masnun@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^9.3.1",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-cors": "0.0.16",
+    "koa-json": "^2.0.2",
+    "koa-jwt": "^4.0.0",
+    "koa-logger": "^3.2.1",
+    "koa-mount": "^4.0.0",
+    "koa-static": "^5.0.0",
+    "moment": "^2.27.0",
+    "mongodb": "^3.5.9",
+    "redis": "^3.0.2",
+    "uuid": "^8.2.0",
+    "winston": "^2.4.4",
+    "winston-papertrail": "^1.0.5"
+  }
+}
